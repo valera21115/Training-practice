@@ -1,0 +1,11 @@
+commit 23b2b8c82a6df4c95dd8e174fb0af1f4652a8fde (HEAD -> master)
+Author: valera21115 <valera.potapovich@gmail.com>
+Date:   Thu Feb 13 11:14:49 2020 +0300
+
+    add status.txt
+
+commit 1e0fceddc5519ab68a3071b6d5f55da14bd81b19
+Author: valera21115 <valera.potapovich@gmail.com>
+Date:   Thu Feb 13 11:09:58 2020 +0300
+
+    add.gitignore
