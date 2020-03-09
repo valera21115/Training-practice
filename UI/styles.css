@@ -1,0 +1,304 @@
+body{
+width: 100%;
+margin: 0;
+font-size: 18px;
+position: relative;
+
+}
+
+.Log {
+float: right;
+margin-left: 1350px;
+border-radius: 25%;
+width: 70px;
+height: 30px;
+}
+h1 {
+margin-top: 5px;
+font-family: 'Roboto';
+font-size:34px;
+width: 250px;
+padding-top: 15px;
+padding-bottom: 70px;
+height: 35px;
+padding-left: 60px;
+margin-bottom: 20px;
+position: fixed;
+padding-bottom:20px;
+float:left;
+
+}
+
+form {
+list-style-type: none;
+margin-top: 20px;
+padding-top:30px;
+margin: 0;
+height: 80%;
+padding-left: 0;
+margin-left: 0;
+padding-top: 50px;
+width: 25%;
+position: fixed;
+display: block;
+font-family: 'Roboto';
+float: left;
+font-size: 30;
+overflow: auto;
+list-style-position:outside;
+float:left;
+}
+form p.filter{
+margin-top: 10px;
+display: block;
+font-family: 'Roboto';
+font-size:28px;
+width: 13%;
+padding-top: 15px;
+height: 3.24%;
+padding-left: 120px;
+
+
+}
+form label{
+padding-top:10px;
+display: block;
+font-size: 25px;
+color: #000;
+padding-left:30px;
+text-decoration: none;
+width: 240px;
+text-align: center;
+
+font-family: 'Roboto';
+}
+form input{
+width: 240px;
+height: 30px;
+margin-left: 30px;
+padding-left: 10px;
+padding-bottom: 7px;
+border:2px solid black;
+font-size: 25px;
+color: grey;
+font-family: 'Roboto';
+}
+form button{
+display: block;
+
+border: 2px solid black;
+color: black;
+margin-top: 10px;
+margin-left: 60px;
+text-align: center;
+text-decoration: none;
+font-size: 17px;
+padding-bottom: 10px
+height: 10px;
+width: 200px;
+}
+form button:active {
+background-color: white;
+
+transform: translateY(4px);
+
+}
+form button p{
+font-size: 20px;
+color: #000;
+font-family: 'Roboto';
+}
+
+
+div.whatst {
+margin-left: 420px;
+height: 160px;
+width: 950px;
+border:2px solid black;
+float: left;
+
+}
+div.whatst h2 {
+margin-top: 50px;
+font-weight: normal;
+margin-left: 120px;
+margin-right: 0;
+font-family: 'Roboto';
+font-size: 22px;
+color: grey;
+margin-bottom: 0px;
+}
+div.whatst button.add {
+display: inline-block;
+float: right;
+border: 2px solid black;
+color: black;
+margin-top: 10px;
+margin-right: 30px;
+text-align: center;
+text-decoration: none;
+font-size: 17px;
+
+height: 50px;
+width: 70px;
+}
+div.whatst button.add p {
+display: inline-block;
+margin-top: 1px;
+margin-bottom: 5px;
+float: left;
+
+}
+div.whatst button.plus {
+display: inline-block;
+float: right;
+border: 2px solid black;
+color: black;
+padding-bottom: 15px;
+margin-right: 10px;
+margin-top: 10px;
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+border-radius: 48%;
+height: 50px;
+width: 50px;
+}
+div.whatst button.plus p {
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+
+
+}
+
+div.content {
+
+float: left;
+margin-left: 420px;
+position: relative;
+margin-top: 25px;
+
+
+width: 1000px;
+overflow: auto;
+list-style-position:outside;
+}
+div.content div.post{
+width: 950px;
+height: 200px;
+border:2px solid black;
+float: left;
+}
+
+div.content div.post h3{
+margin-top: 30px;
+width: 800px;
+margin-left: 120px;
+margin-right: 40px;
+display: block;
+font-size: 18px;
+font-family: 'Roboto';
+
+}
+div.content div.post p{
+display: block;
+width: 800px;
+margin-left: 120px;
+height: 80px;
+font-size: 12px;
+font-family: 'Roboto';
+
+}
+div.content div.post p.tags{
+font-size: 18px;
+width: 300px;
+margin-left: 50px;
+height: 20px;
+font-family: 'Roboto';
+color: blue;
+
+}
+div.content div.post button{
+font-size: 18px;
+width: 70px;
+height: 30px;
+float: right;
+margin-right: 20px;
+position: relative;
+font-family: 'Roboto';
+color: blue;
+
+}
+div.content button.plus {
+display: inline-block;
+float: right;
+border: 2px solid black;
+color: black;
+padding-bottom:15px;
+margin-top: 10px;
+margin-right: 48%;
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+border-radius: 48%;
+height: 50px;
+position: relative;
+width: 50px;
+cursor: pointer;
+}
+div.content button.plus p {
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+
+
+}
+
+div.content button.plus:active {
+background-color: white;
+
+transform: translateY(4px);
+
+}
+
+footer{
+width: 97.9%;
+height: 14%;
+margin: 0;
+padding-left: 40px;
+padding-top: 15px;
+font-size: 18px;
+display: block;
+float:left;
+border-top:2px solid black;
+}
+footer p{
+width: 800px;
+height: 14%;
+color: grey;
+font-size: 12px;
+font-family: 'Roboto';
+}
+
+@media screen and (max-width: 900px) {
+ul.sidenav {
+width: 100%;
+height: auto;
+position: relative;
+}
+
+ul.sidenav li a {
+float: left;
+padding: 15px;
+}
+
+div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+ul.sidenav li a {
+text-align: center;
+float: none;
+}
+}
