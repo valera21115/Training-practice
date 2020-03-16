@@ -43,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1116,
+				"buffer_size": 2078,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -60,7 +60,7 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 1863,
+				"buffer_size": 4374,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -143,15 +143,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1116,
+						"buffer_size": 2078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								578,
-								578
+								435,
+								435
 							]
 						],
 						"settings":
@@ -207,15 +207,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1863,
+						"buffer_size": 4374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								762,
-								1071
+								713,
+								713
 							]
 						],
 						"settings":
@@ -225,7 +225,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 498.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -236,7 +236,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -280,7 +280,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
