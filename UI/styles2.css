@@ -1,0 +1,236 @@
+header {
+    text-align: left;
+    position: absolute;
+     font-family: 'Roboto';
+    background-color: #fff;
+    z-index: 1;
+    height: 6.5%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    min-height: 50px;
+    max-height: 110px;
+ 
+}
+
+
+.log-out {
+    float: right;
+    margin-right: 1%;
+    margin-top: 1.1%;
+     border-radius: 25%;
+  width: 70px;
+  height: 30px;
+}
+
+.username {
+    margin-right: 0%;
+    margin-top: 1.2%;
+    font-size: 34px;
+font-family: 'Roboto';
+    cursor: default;
+}
+
+.filters {
+    position: absolute;
+    top: 10%;
+    font-family: 'Roboto';
+    height: 60%;
+    width: 29%;
+    background-color: white;
+}
+
+.filter-name {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    font-style:'Roboto' ;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+
+.first-date {
+    border-width: 1.5px;
+    border-color: grey;
+    width: 25%;
+    margin-left: 24%;
+    margin-top: 0%;
+    cursor: text;
+    border-radius: 15px;
+}
+
+.second-date {
+    border-width: 1.5px;
+    border-color: grey;
+    width: 25%;
+    cursor: text;
+    border-radius: 15px;
+}
+
+.name {
+    border-width: 1.5px;
+    border-color: grey;
+    width: 51.75%;
+    margin-top: 3%;
+    margin-left: 24%;
+    cursor: text;
+    border-radius: 15px;
+}
+
+.hashtags {
+    border-width: 1.5px;
+    border-color: grey;
+    width: 51.75%;
+    margin-top: 3%;
+    margin-left: 24%;
+    cursor: text;
+    border-radius: 15px;
+}
+
+.apply {
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.news-box {
+    border-radius: 15px;
+    overflow: auto;
+    position: absolute;
+    background-color: #ebebeb;
+    height: 88.25%;
+    width: 62.5%;
+    left: 30%;
+    top: 6.75%;
+}
+
+.add-new-post {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.test-post {
+    border-radius: 15px;
+    background-color: white;
+    margin: 1% 4%;
+}
+
+.post-header {
+    font-size: 105%;
+}
+
+.user-ava {
+    float: left;
+    height: 42px;
+    border-radius: 10px;
+}
+
+.edit-img {
+    float: right;
+    width: 30px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-right: 3%;
+}
+
+.delete-img {
+    float: right;
+    width: 25px;
+    cursor: pointer;
+    margin-top: -3%;
+}
+
+.post-description {
+    margin: 2% 1%;
+    font-size: 120%;
+}
+
+.post-image {
+    margin: -1% 0%;
+    width: 15%;
+}
+
+.post-footer {
+    padding: 1%;
+    border-top-color: black;
+    border-top-style: double;
+}
+
+.like-img {
+    width: 20px; 
+    cursor: pointer;
+}
+
+.like-counter {
+    font-style: italic;
+}
+
+.more-button {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    height: 4%;
+    left: 0%;
+    bottom: 0%;
+    max-height: 65px;
+}
+
+.footer-line{
+    height: 6%;
+    width: 90%;
+    border: none;
+    background-color: black;
+    color: black;
+    opacity: 0.9;
+    margin-top: -0.35%;
+}
+
+.information {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1000px){
+    .apply{
+        margin-top: 2%;
+        margin-left: 40%;
+    }
+
+    .first-date{
+        margin-left: 23%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .apply{
+        margin-top: 2%;
+        margin-left: 22%;
+    }
+
+    .first-date{
+        margin-left: 21%;
+    }
+}
