@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"test10"
+			],
+			[
+				"ge",
+				"getPost"
+			],
+			[
+				"Ива",
+				"Иван"
+			],
+			[
+				"Ив",
+				"Иванов"
+			],
+			[
+				"co",
+				"coronavirus"
+			],
+			[
 				"bor",
 				"border-radius\tproperty"
 			],
@@ -43,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2369,
+				"buffer_size": 2451,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -56,7 +76,6 @@
 			"settings":
 			{
 				"buffer_size": 4330,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -69,34 +88,11 @@
 			}
 		},
 		{
-			"file": "styles.css",
+			"file": "/D/Training practice/JS/script.js",
 			"settings":
 			{
-				"buffer_size": 6825,
+				"buffer_size": 9935,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "header {\n    text-align: left;\n    position: absolute;\n     font-family: 'Roboto';\n    background-color: #fff;\n    z-index: 1;\n    height: 6.5%;\n    width: 100%;\n    top: 0px;\n    left: 0px;\n    min-height: 50px;\n    max-height: 110px;\n \n}\n\n\n.log-out {\n    float: right;\n    margin-right: 1%;\n    margin-top: 1.1%;\n     border-radius: 25%;\n  width: 70px;\n  height: 30px;\n}\n\n.username {\n    margin-right: 0%;\n    margin-top: 1.2%;\n    font-size: 34px;\nfont-family: 'Roboto';\n    cursor: default;\n}\n\n.filters {\n    position: absolute;\n    top: 10%;\n    font-family: 'Roboto';\n    height: 60%;\n    width: 29%;\n    background-color: white;\n}\n\n.filter-name {\n    text-align: center;\n    font-size: 150%;\n    font-weight: 500;\n    font-style:'Roboto' ;\n    margin-top: 0%;\n    margin-bottom: 0%;\n}\n\n\n\n.first-date {\n    border-width: 1.5px;\n    border-color: grey;\n    width: 25%;\n    margin-left: 24%;\n    margin-top: 0%;\n    cursor: text;\n    border-radius: 15px;\n}\n\n.second-date {\n    border-width: 1.5px;\n    border-color: grey;\n    width: 25%;\n    cursor: text;\n    border-radius: 15px;\n}\n\n.name {\n    border-width: 1.5px;\n    border-color: grey;\n    width: 51.75%;\n    margin-top: 3%;\n    margin-left: 24%;\n    cursor: text;\n    border-radius: 15px;\n}\n\n.hashtags {\n    border-width: 1.5px;\n    border-color: grey;\n    width: 51.75%;\n    margin-top: 3%;\n    margin-left: 24%;\n    cursor: text;\n    border-radius: 15px;\n}\n\n.apply {\n    font-size: 17px;\n    font-weight: bold;\n    border-radius: 15px;\n    cursor: pointer;\n}\n\n.news-box {\n    border-radius: 15px;\n    overflow: auto;\n    position: absolute;\n    background-color: #ebebeb;\n    height: 88.25%;\n    width: 62.5%;\n    left: 30%;\n    top: 6.75%;\n}\n\n.add-new-post {\n    display: block;\n    margin: auto;\n    margin-top: 40px;\n    font-size: 20px;\n    width: 120px;\n    height: 50px;\n    font-weight: bold;\n    cursor: pointer;\n    border-radius: 15px;\n}\n\n.test-post {\n    border-radius: 15px;\n    background-color: white;\n    margin: 1% 4%;\n}\n\n.post-header {\n    font-size: 105%;\n}\n\n.user-ava {\n    float: left;\n    height: 42px;\n    border-radius: 10px;\n}\n\n.edit-img {\n    float: right;\n    width: 30px;\n    cursor: pointer;\n    margin-top: -3%;\n    margin-right: 3%;\n}\n\n.delete-img {\n    float: right;\n    width: 25px;\n    cursor: pointer;\n    margin-top: -3%;\n}\n\n.post-description {\n    margin: 2% 1%;\n    font-size: 120%;\n}\n\n.post-image {\n    margin: -1% 0%;\n    width: 15%;\n}\n\n.post-footer {\n    padding: 1%;\n    border-top-color: black;\n    border-top-style: double;\n}\n\n.like-img {\n    width: 20px; \n    cursor: pointer;\n}\n\n.like-counter {\n    font-style: italic;\n}\n\n.more-button {\n    display: block;\n    margin: auto;\n    font-weight: bold;\n    border-radius: 15px;\n    font-size: 20px;\n    width: 120px;\n    height: 50px;\n    cursor: pointer;\n}\n\nfooter {\n    position: absolute;\n    text-align: center;\n    background-color: white;\n    z-index: 1;\n    width: 100%;\n    height: 4%;\n    left: 0%;\n    bottom: 0%;\n    max-height: 65px;\n}\n\n.footer-line{\n    height: 6%;\n    width: 90%;\n    border: none;\n    background-color: black;\n    color: black;\n    opacity: 0.9;\n    margin-top: -0.35%;\n}\n\n.information {\n    font-size: 14px;\n    opacity: 0.8;\n}\n\n@media only screen and (max-width: 1000px){\n    .apply{\n        margin-top: 2%;\n        margin-left: 40%;\n    }\n\n    .first-date{\n        margin-left: 23%;\n    }\n}\n\n@media only screen and (max-width: 500px){\n    .apply{\n        margin-top: 2%;\n        margin-left: 22%;\n    }\n\n    .first-date{\n        margin-left: 21%;\n    }\n}",
-			"file": "styles2.css",
-			"file_size": 3776,
-			"file_write_time": 132288422408045122,
-			"settings":
-			{
-				"buffer_size": 3541,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "body{\n  width: 100%;\n\t margin: 0;\n\t font-size: 18px;\n   position: relative;\n\n\n}\n\n\n.Log {\n  float: right;\n  margin-left: 1350px;\n  border-radius: 25%;\n  width: 70px;\n  height: 30px;\n}\nh1 {\n  margin-top: 5px;\n  font-family: 'Roboto';\n  font-size:34px;\n  width: 250px;\n  padding-top: 15px;\n  padding-bottom: 70px; \n  height: 35px;\n  padding-left: 60px;\n  margin-bottom: 20px;\n  position: fixed;\npadding-bottom:20px; \nfloat:left;\n  \n}\n\n\nform {\n  list-style-type: none;\n margin-top: 20px;\n padding-top:30px; \n  margin: 0;\n  height: 80%;\n  padding-left: 0;\n  margin-left: 0;\n  padding-top: 50px;\n  width: 25%;\n  position: fixed;\n  display: block;\n  font-family: 'Roboto';\n  float: left;\n  font-size: 30;\n  overflow: none;\n  list-style-position:none;\n  float:left;\n}\nform p.filter{\n  margin-top: 10px;\n  display: block;\n  font-family: 'Roboto';\n  font-size:28px;\n  width: 250px;\n  padding-top: 15px;\n  height: 35px;\n  padding-left: 120px;\n\n  \n}\nform label{\n  padding-top:10px; \n  display: block;\n  font-size: 25px;\n  color: #000;\n  padding-left:30px;\n  text-decoration: none;\n  width: 240px;\n  text-align: center;\n  \n   font-family: 'Roboto';\n}\nform input{\n  width: 240px;\n  height: 30px;\n  margin-left: 30px;\n  padding-left: 10px;\n  padding-bottom: 7px;\n  border:2px solid black;\n  font-size: 25px;\n  color: grey;\n  font-family: 'Roboto';\n}\nform button{\n  display: block;\n  \n  border: 2px solid black;\n  color: black;\n margin-top: 10px;\n margin-left: 60px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 17px;\n padding-bottom: 10px\n  height: 10px;\n   width: 200px; \n}\nform button:active {\nbackground-color: white;\n\n  transform: translateY(4px);\n  \n}\nform button p{\n  font-size: 20px;\n  color: #000;\n  font-family: 'Roboto';\n}\n\n \n\ndiv.whatst  {\n  margin-left: 420px;\n   height: 160px;\n   width: 950px;\n   border:2px solid black;\n   float: left;\n\n}\ndiv.whatst input.wha {\n  margin-top: 50px;\n  border:none;\n  font-weight: normal;\n  margin-left: 120px;\n  margin-right: 0;\n  font-family: 'Roboto';\n   font-size: 22px;\n   color: grey;\n   margin-bottom: 0px;\n}\ndiv.whatst  button.add {\n  display: inline-block;\n  float: right;\n  border: 2px solid black;\n  color: black;\n margin-top: 100px;\n margin-right: 30px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 17px;\n \n  height: 50px;\n   width: 70px; \n}\ndiv.whatst  button.add p {\n  display: inline-block;\n  margin-top: 1px;\n    \n  float: left;\n\n}\ndiv.whatst  button.plus {\n  display: inline-block;\n  float: right;\n  border: 2px solid black;\n  color: black;\n padding-bottom: 15px;\n margin-right: 10px;\n margin-top: 105px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 30px;\n  border-radius: 48%;\n  height: 50px;\n   width: 50px; \n}\ndiv.whatst  button.plus p {\n  display: inline-block;\n  margin-top: 1px;\n     margin-bottom: 5px;\n  \n\n}\n\ndiv.whatst button:active {\nbackground-color: white;\n\n  transform: translateY(4px);\n  \n}\ndiv.content {\n \nfloat: left;\n margin-left: 420px;\n position: relative;\n margin-top: 25px;\n   \n \n  width: 1000px;\n  overflow: auto;\n  list-style-position:outside;\n}\ndiv.content  div.post{\n  width: 950px;\n  height: 200px;\n  border:2px solid black;\n  float: left;\n }\n div.content  div.post button.Edit{\ndisplay: inline-block;\n  float: right;\n  border: none;\n  background-color: white;\n  text-decoration:underline; \n  color: blue;\n padding-bottom: 25px;\n margin-right: 27px;\nmargin-bottom: 70px;\nmargin-top: 10px;\n  text-align: center;\n  font-size: 20px;\n  height: 50px;\n   width: 50px; \n}\n div.content  div.post button.Edit:active{\n  display: none;\n  visibility: hidden;\n  }\n\ndiv.content  div.post h3{\n  margin-top: 30px;\n  width: 800px;\n  margin-left: 120px;\n  margin-right: 40px;\n display: block;\n  font-size: 18px;\n  font-family: 'Roboto';\n\n }\n \n div.content  div.post p{\n  display: block;\n  width: 800px;\n  margin-left: 120px;\n  height: 80px;\n  font-size: 12px;\n  font-family: 'Roboto';\n  \n }\n div.content  div.post p.tags{\n  font-size: 18px;\n  width: 300px;\n  margin-left: 50px;\n height: 20px;\n  font-family: 'Roboto';\n  color: blue;\n  \n }\n  div.content  div.post button.like{\n  font-size: 18px;\n  width: 70px;\n  height: 30px;\n float: right;\n margin-right: 20px;\n position: relative;\n  font-family: 'Roboto';\n  color: blue;\n  \n }\n div.content button.plus {\n  display: inline-block;\n  float: right;\n  border: 2px solid black;\n  color: black;\n padding-bottom: 15px;\n margin-top: 10px;\n margin-right: 48%;\n  text-align: center;\n  text-decoration: none;\n  font-size: 30px;\n  border-radius: 48%;\n  height: 50px;\n  position: relative;\n   width: 50px; \n    cursor: pointer;\n}\ndiv.content  button.plus p {\n  display: inline-block;\n  margin-top: 1px;\n     margin-bottom: 5px;\n  \n\n}\n\ndiv.content button.plus:active {\nbackground-color: white;\n\n  transform: translateY(4px);\n  \n}\n\n footer{\n   width: 100%;\n   height: 150px;\n   margin: 0;\n   padding-left: 40px;\n   padding-top: 15px;\n   font-size: 18px;\n   display: block;\n   float:left;\n   border-top:2px solid black;\n}\nfooter p{ \n  width: 800px;\n  height: 150px;\n  color: grey;\n  font-size: 12px;\n  font-family: 'Roboto';\n }\n\n\n\n\n\n\n@media screen and (max-width: 900px) {\n  h1{\n    margin-top: 0px;\n    padding-top: 0px;\n  font-family: 'Roboto';\n  font-size:15px;\n  width: 120px;\n  padding-top: 15px;\n  padding-bottom: 5px; \n  height: 25px;\n  margin-left: 70px;\n  position: fixed;\n  padding-left: 40px;\nfloat:left;\n\n  }\n\n form{\n     margin-top: 20px;\n padding-top:15px; \n  margin: 0;\n  height: 80%;\n  padding-left: 0;\n  margin-left: 0;\n  padding-top: 5px;\n  margin-right: 10px;\n  width: 110px;\n  font-family: 'Roboto';\n  float: left;\n  overflow: none;\n  position: fixed;\n  list-style-position:none;\n  float:left;\n  }\n\nform p.filter{\n  margin-top: 10px;\n  font-family: 'Roboto';\n  font-size:20px;\n  float: left;\n  width: 50px;\n  padding-top: 15px;\n  height: 15px;\n  padding-left: 20px;\n  display: none;\n\n  \n}\nform label{\n  \n  font-size: 15px;\n  color: #000;\n  display: inline;\n \n  padding-left:10px;\n  text-decoration: none;\n  width: 30px;\n  text-align: center;\n  display: inline-block;\n   font-family: 'Roboto';\n}\nform input{\n  display: inline-block;\n  width: 70px;\n  height: 15px;\n  margin-left: 7px;\n  padding-left: 10px;\n\n  border:2px solid black;\n  font-size: 15px;\n  color: grey;\n  font-family: 'Roboto';\n}\n\nform button{\n  \n  border: 2px solid black;\n  color: black;\n margin-left: 15px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 15px;\n padding-top: 0px;\n padding-left: 0;\n  height: 30px;\n   width: 70px; \n}\nform button p{\n  margin-top: 4px;\n  padding-top: 0;\n  font-size: 15px;\n  color: #000;\n  font-family: 'Roboto';\n}\n\n\n  div.whatst  {\n  margin-left: 100px;\n  margin-top: 40px;\n  position: fixed;\n   height: 80px;\n   width: 78%;\n   border:2px solid black;\n   float: left;\n\n}\ninput.Data2{\n  margin-top: 5px;\n}\ndiv.whatst input.wha {\n  margin-top: 20px;\n  font-weight: normal;\n  margin-left: 40px;\n  margin-right: 0;\n  font-family: 'Roboto';\n   font-size: 17px;\n   color: grey;\n   margin-bottom: 0px;\n}\n\ndiv.whatst  button.add {\n  display: inline-block;\n  float: right;\n  border: 2px solid black;\n  color: black;\n margin-top: 45px;\n margin-right: 20px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 10px;\n height: 30px;\n   width: 50px; \n}\ndiv.whatst  button.add p {\n  display: inline-block;\n  margin-top: 1px;\n    \n\n}\ndiv.whatst  button.plus {\n  display: inline-block;\n  float: right;\n  border: 2px solid black;\n  color: black;\n padding-bottom: 3px;\n padding-top: 0px;\n margin-right: 10px;\n margin-top: 50px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 15px;\n  border-radius: 48%;\n  height: 25px;\n   width: 25px; \n}\ndiv.whatst  button.plus p {\n  display: inline-block;\n  margin-top: 1px;\n  \n\n}\n\n\ndiv.content {\n position: absolute;\n margin-top: 130px;\n   margin-left: 100px;\n   height: 200px;\n   width: 78%;\n   border:2px solid black;\n   float: left;\n   overflow: auto;\n  list-style-position:outside;\n}\ndiv.content  div.post{\n  width: 100%;\n  float: right;\n  height: 150px;\n  border:2px solid black;\n }\n \ndiv.content  div.post h3{\n  margin-top:7px;\n  width: 100%;\n  margin-left: 30px;\n  margin-right: 6px;\n display: block;\n  font-size: 17px;\n  font-family: 'Roboto';\n\n }\n div.content  div.post p{\n  display: block;\n  width: 80%;\n  margin-left: 30px;\n  height: 60px;\n  font-size: 15px;\n  font-family: 'Roboto';\n  \n }\n div.content  div.post p.tags{\n  font-size: 16px;\n  width: 150px;\n  margin-left: 20px;\n height: 10px;\n  font-family: 'Roboto';\n  color: blue;\n  \n }\n  div.content  div.post button.Edit{\ndisplay: block;\n  float: right;\n  border: none;\n  background-color: white;\n  text-decoration:underline; \n  color: blue;\n padding-bottom: 25px;\n margin-right: 17px;\nmargin-bottom: 50px;\nmargin-top: 10px;\n  text-align: center;\n  font-size: 20px;\n  height: 30px;\n   width: 50px; \n}\n div.content  div.post ul{\n  display: none;\n }\n div.content  div.post button.Edit:active{\n  display: none;\n  visibility: hidden;\n  }\n\n  div.content  div.post button.like{\n  font-size: 18px;\n  width: 70px;\n  height: 30px;\n float: right;\n padding-bottom: 5px;\n margin-right: 10px;\n display: block;\n margin-bottom: 10px;\n position: relative;\n  font-family: 'Roboto';\n  color: blue;\n  \n }\n div.content button.plus {\n  display: inline-block;\n  float: left;\n  border: 2px solid black;\n  color: black;\n padding-bottom: 3px;\n padding-top: 0px;\n margin-left: 45%;\n margin-top: 5px;\n  text-align: center;\n  text-decoration: none;\n  font-size: 15px;\n  border-radius: 48%;\n  height: 25px;\n   width: 25px; \n}\ndiv.content  button.plus p {\n  display: inline-block;\n  margin-top: 1px;\n     margin-bottom: 5px;\n  \n\n}\n\ndiv.content  div.post ul{\n  width: 65px;\n  display: block;\n    margin: 0;\n  padding: 0;\n  float: right;\n  margin-left: 85%;\n  margin-right: 30px;\n margin-top: 20px;\n\n height:  50px;\n margin-top: 0px;\n margin-bottom: 40px \n  font-size: 18px;\n  list-style-type: none;\n  font-family: 'Roboto';\nbackground-color: white;\n\n }\ndiv.content  div.post ul li button{\n  text-decoration: none;\n  list-style-type: none;\n  padding-top: 7px;\n  display: block;\n  border: 2px solid black;\n  color: black;\n  text-align: center;\n  text-decoration: none;\n  font-size: 10px;\n padding-bottom: 10px;\n  height: 30px;\n   width: 65px; \n\n}\n footer{\n  display: none;\n   width: 100%;\n   height: 150px;\n   margin: 0;\n   padding-left: 40px;\n   padding-top: 15px;\n   font-size: 18px;\n   display: block;\n   float:left;\n   border-top:2px solid black;\n}\nfooter p{ \n  width: 800px;\ndisplay: none;\n\n\n}",
-			"file": "styles1.css",
-			"file_size": 11075,
-			"file_write_time": 132283866663272766,
-			"settings":
-			{
-				"buffer_size": 10433,
 				"line_ending": "Windows"
 			}
 		}
@@ -133,6 +129,8 @@
 	},
 	"file_history":
 	[
+		"/D/Training practice/UI/styles1.css",
+		"/D/Training practice/UI/styles2.css",
 		"/D/Training practice/UI/styles.css",
 		"/D/Training practice/UI/index.html"
 	],
@@ -152,6 +150,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'2020-03-17T23:00:00'",
+			"comparator",
 			"filter",
 			"filte",
 			"lol",
@@ -185,15 +185,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2369,
+						"buffer_size": 2451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								966,
-								966
+								244,
+								325
 							]
 						],
 						"settings":
@@ -201,7 +201,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1110.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -234,7 +234,7 @@
 						"translation.y": 1365.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -264,7 +264,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -275,92 +275,32 @@
 			[
 				{
 					"buffer": 3,
-					"file": "styles.css",
+					"file": "/D/Training practice/JS/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6825,
+						"buffer_size": 9935,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6714,
-								6714
+								8942,
+								8942
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8127.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "styles2.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4.0,
+						"translation.y": 3913.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "styles1.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10433,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4850.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -394,7 +334,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.0260416666667,
 			1.0
 		],
 		"rows":

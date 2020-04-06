@@ -298,7 +298,7 @@ let posts = [
 
     console.log("Add new post with correct parameters and get it:");
     addPost({id: "21", createdAt: new Date(), description: "test description", author: "test21"});
-    console.log(getPost('123'));
+    console.log(getPost('21'));
 
     console.log("Edit new post:");
     editPost('21',{description: "edit", photoLink: "https://pbs.twimg.com/profile_images/969572403876651008/V2D7jwaf_400x400.jpg"});
