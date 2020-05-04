@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "fc7ac4bd-a3d5-4b26-b377-6e5c5ffbabd8",
+		"name": "goodreads_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_author_info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.goodreads.com/author/list.xml?key=qsLkPJ02IdNNOuiuZoaWZQ&id=1077326",
+					"protocol": "https",
+					"host": [
+						"www",
+						"goodreads",
+						"com"
+					],
+					"path": [
+						"author",
+						"list.xml"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "qsLkPJ02IdNNOuiuZoaWZQ"
+						},
+						{
+							"key": "id",
+							"value": "1077326"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_find_group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.goodreads.com/group/search.xml?q=Psychological Thrillers&key= qsLkPJ02IdNNOuiuZoaWZQ",
+					"protocol": "https",
+					"host": [
+						"www",
+						"goodreads",
+						"com"
+					],
+					"path": [
+						"group",
+						"search.xml"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Psychological Thrillers"
+						},
+						{
+							"key": "key",
+							"value": " qsLkPJ02IdNNOuiuZoaWZQ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_user's_read_status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.goodreads.com/read_statuses/111117269?format=xml&key= qsLkPJ02IdNNOuiuZoaWZQ",
+					"protocol": "https",
+					"host": [
+						"www",
+						"goodreads",
+						"com"
+					],
+					"path": [
+						"read_statuses",
+						"111117269"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "xml"
+						},
+						{
+							"key": "key",
+							"value": " qsLkPJ02IdNNOuiuZoaWZQ"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
