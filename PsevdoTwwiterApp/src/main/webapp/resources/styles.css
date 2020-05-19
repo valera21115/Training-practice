@@ -101,6 +101,25 @@ font-size: 20px;
 font-family: 'Roboto';
 }
 
+
+div.tweet-action{
+    width: 60px;
+    hight: 200px;
+    float: right;
+}
+
+button.like {
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    font-family: 'Roboto';
+    color: blue;
+}
+
+
+
 div.whatst {
 margin-left: 420px;
 height: 160px;
@@ -169,14 +188,37 @@ overflow: auto;
 list-style-position:outside;
 }
 
+
+div.content div.tweet{
+
 div.content div.post{
+
 width: 950px;
 height: 200px;
 border:2px solid black;
 float: left;
 }
 
-div.content div.post button.Edit{
+
+div.content div.tweet button.Edit{
+float: right;
+    border: none;
+     background-color: white;
+    text-decoration: underline;
+    color: blue;
+    padding-bottom: 25px;
+    margin-right: 27px;
+    margin-bottom: 90px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+div.content div.tweet h3{
+div.cont
+ent div.post button.Edit{
 display: inline-block;
 float: right;
 border: none;
@@ -194,6 +236,7 @@ width: 50px;
 }
 
 div.content div.post h3{
+
 margin-top: 30px;
 width: 800px;
 margin-left: 120px;
@@ -203,7 +246,11 @@ font-size: 18px;
 font-family: 'Roboto';
 }
 
+
+div.content div.tweet ul{
+
 div.content div.post ul{
+
 width: 65px;
 display: none;
 padding: 0;
@@ -217,7 +264,10 @@ font-family: 'Roboto';
 background-color: white;
 }
 
+div.content div.tweet ul li button{
+
 div.content div.post ul li button{
+
 text-decoration: none;
 list-style-type: none;
 border: 2px solid black;
@@ -229,14 +279,22 @@ padding-bottom: 10px
 height: 10px;
 width: 65px;
 }
+
+div.content div.tweet p{
+
 div.content div.post p{
+
 width: 800px;
 margin-left: 120px;
 height: 80px;
 font-size: 12px;
 font-family: 'Roboto';
 }
+
+div.content div.tweet p.tags{
+
 div.content div.post p.tags{
+
 font-size: 18px;
 width: 300px;
 margin-left: 50px;
@@ -244,7 +302,10 @@ height: 20px;
 font-family: 'Roboto';
 color: blue;
 }
+div.content div.tweet button.like{
+
 div.content div.post button.like{
+
 font-size: 18px;
 width: 70px;
 height: 30px;
@@ -395,6 +456,17 @@ height: 200px;
 width: 73%;
 }
 
+
+div.content div.tweet p {
+    display: block;
+    width: 80%;
+    margin-left: 30px;
+    height: 40px;
+    font-size: 15px;
+}
+
+div.content div.tweet h3{
+
 div.content div.post{
 width: 90%;
 float: right;
@@ -407,6 +479,9 @@ width: 100%;
 margin-left: 30px;
 margin-right: 6px;
 }
+
+div.content div.tweet p{
+
 div.content div.post p{
 display: block;
 width: 80%;
@@ -415,12 +490,43 @@ height: 60px;
 font-size: 15px;
 }
 
+div.content div.tweet p.tags{
+
 div.content div.post p.tags{
 font-size: 16px;
 width: 150px;
 margin-left: 20px;
 height: 10px;
 }
+
+div.content div.tweet button.Edit{
+float: right;
+    border: none;
+     background-color: white;
+    text-decoration: underline;
+    color: blue;
+    padding-bottom: 25px;
+    margin-right: 27px;
+    margin-bottom: 90px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+div.content div.tweet ul{
+display: none;
+}
+
+div.content div.tweet button.like {
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    font-family: 'Roboto';
+    color: blue;
 
 div.content div.post button.Edit{
 margin-right: 17px;
@@ -451,6 +557,7 @@ height: 25px;
 width: 25px;
 }
 
+div.content div.tweet ul{
 div.content div.post ul{
 margin: 0;
 margin-left: 85%;
@@ -460,6 +567,9 @@ height: 50px;
 margin-top: 0px;
 margin-bottom: 40px
 }
+
+
+div.content div.tweet ul li button{
 
 div.content div.post ul li button{
 padding-top: 7px;

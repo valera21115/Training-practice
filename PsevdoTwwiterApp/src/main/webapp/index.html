@@ -6,12 +6,20 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>PsevdoTwitter</title>
 
+   <script type="text/javascript" src="resources/js/script.js"></script>
+</head>
+<body>
+  
+  <button class="Log">Log out</button>
+  <h1>Valery</h1>
+
    <script type="text/javascript" src="D:\Training practice\JS_PostClass\scriptPostClass.js"></script>
 </head>
 <body>
 	
   <button class="Log">Log out</button>
   <h1>User Name</h1>
+
  
    
  <form action="/action_page.php">
@@ -30,11 +38,35 @@
 <div class="whatst">
   <input class="wha" type="text" name="Whats" placeholder=" Whats happening??">
 </input>
+
+  <button class="add"><p>Add tweet</p></button>
+
   <button class="add"><p>Add post</p></button>
+
   <button class="plus"><p>+</p></button>
     
 </div>
 <flexbox>
+
+<div class="content" id="tweetContainer">
+  <template id="tweetTemplate">
+    <div class="tweet">    
+      <div class="tweet-action">
+
+      <button class="Edit">Edit</button>
+  <button class="like">like</button>
+      </div>
+      <div class="tweet-info">
+        <h3 class="tweet-name"></h3>
+        <p class="tweet-text"></p>
+
+        <p class="tags"></p>
+      </div>
+    </div>
+  </template>
+      <button class="plus">+</button>
+</div>
+
 <div class="content">
   <div class="post">
 
@@ -83,6 +115,7 @@
   </div>
    <button class="plus"><p>+</p></button>
  </div>
+
 </flexbox>
   <footer>
   
