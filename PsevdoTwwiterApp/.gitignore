@@ -1,0 +1,14 @@
+# Default ignored files
+/workspace.xml
+*.iml
+
+*.class
+
+.DS_Store/
+
+.idea/
+
+out/
+
+target/
+README.md/

@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "73df3418-8ea7-46ad-aba6-6f172849421f",
+		"name": "vk_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_user_information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/users.get?user_id=107940802&v=5.52&access_token=a6ec90e7bb292d4a771e274dbf18a18fd94e4dc91899d447c0beb4efeb3492cb9bbdad0bfde1f629f9c03",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"users.get"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "107940802"
+						},
+						{
+							"key": "v",
+							"value": "5.52"
+						},
+						{
+							"key": "access_token",
+							"value": "a6ec90e7bb292d4a771e274dbf18a18fd94e4dc91899d447c0beb4efeb3492cb9bbdad0bfde1f629f9c03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_user's_groups_information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/groups.get?user_id=107940802&v=5.52&access_token=a6ec90e7bb292d4a771e274dbf18a18fd94e4dc91899d447c0beb4efeb3492cb9bbdad0bfde1f629f9c03",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"groups.get"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "107940802"
+						},
+						{
+							"key": "v",
+							"value": "5.52"
+						},
+						{
+							"key": "access_token",
+							"value": "a6ec90e7bb292d4a771e274dbf18a18fd94e4dc91899d447c0beb4efeb3492cb9bbdad0bfde1f629f9c03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_user's_friends_information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/friends.get?user_id=107940802&v=5.52&access_token=a6ec90e7bb292d4a771e274dbf18a18fd94e4dc91899d447c0beb4efeb3492cb9bbdad0bfde1f629f9c03",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"friends.get"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "107940802"
+						},
+						{
+							"key": "v",
+							"value": "5.52"
+						},
+						{
+							"key": "access_token",
+							"value": "a6ec90e7bb292d4a771e274dbf18a18fd94e4dc91899d447c0beb4efeb3492cb9bbdad0bfde1f629f9c03"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

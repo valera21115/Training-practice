@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "7d9ae365-8bbb-400e-8c86-3365d23d5714",
+		"name": "Bandsintown_API_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_events_near_Minsk",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bandsintown.com/?came_from=67&sort_by_filter=Number+of+RSVPs",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bandsintown",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "came_from",
+							"value": "67"
+						},
+						{
+							"key": "sort_by_filter",
+							"value": "Number+of+RSVPs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_main_page",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://www.bandsintown.com/?came_from=67",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bandsintown",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "came_from",
+							"value": "67"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_author_event_Minsk",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bandsintown.com/e/102096326-super-besse-at-modul-art-platform?came_from=67&utm_medium=web&utm_source=home&utm_campaign=top_event",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bandsintown",
+						"com"
+					],
+					"path": [
+						"e",
+						"102096326-super-besse-at-modul-art-platform"
+					],
+					"query": [
+						{
+							"key": "came_from",
+							"value": "67"
+						},
+						{
+							"key": "utm_medium",
+							"value": "web"
+						},
+						{
+							"key": "utm_source",
+							"value": "home"
+						},
+						{
+							"key": "utm_campaign",
+							"value": "top_event"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
